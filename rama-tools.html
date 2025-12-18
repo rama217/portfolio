@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#050507">
+    <meta name="google-site-verification" content="iE44gpBpd8bgIKMDG2n6LktGpzmO9r5ZtyMQuNOzFjI" />
+    
+    <title>علی اکبر رستگاری مهر | AliAkbar Rastegari Mehr - AI Developer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <style>
+        :root {
+            --bg-dark: #050507;
+            --accent-blue: #3b82f6;
+            --text-gray: #9ca3af;
+            --glass: rgba(255, 255, 255, 0.03);
+            --shadow-lg: 0 10px 30px -10px rgba(0, 0, 0, 0.5);
+        }
+
+        @font-face {
+            font-family: 'Vazir';
+            src: url('https://cdn.jsdelivr.net/gh/rastikerdar/vazir-font@v30.1.0/dist/Vazir.woff2') format('woff2');
+        }
+
+        body {
+            background-color: var(--bg-dark);
+            color: white;
+            font-family: 'Vazir', sans-serif;
+            scroll-behavior: smooth;
+            overflow-x: hidden;
+        }
+
+        .glass-card {
+            background: var(--glass);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            border-radius: 1.5rem;
+            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        }
+
+        .glass-card:hover {
+            border-color: var(--accent-blue);
+            transform: translateY(-5px);
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%);
+            box-shadow: 0 4px 15px rgba(59, 130, 246, 0.4);
+        }
+
+        .nav-link {
+            position: relative;
+            transition: color 0.3s ease;
+        }
+
+        .nav-link::after {
+            content: '';
+            position: absolute;
+            bottom: -5px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: var(--accent-blue);
+            transition: width 0.3s ease;
+        }
+
+        .nav-link:hover::after {
+            width: 100%;
+        }
+
+        /* Language Toggle Styles */
+        html[lang="en"] {
+            direction: ltr;
+            font-family: 'Inter', system-ui, sans-serif;
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <!-- --- Navbar --- -->
+    <nav class="fixed top-0 w-full z-50 px-6 py-4 flex justify-between items-center glass-card rounded-none border-t-0 border-x-0">
+        <div class="text-xl font-bold tracking-tighter text-blue-500">RAMA EMPIRE</div>
+        
+        <div class="flex items-center gap-6">
+            <button onclick="toggleLanguage()" id="langBtn" class="px-3 py-1 rounded-full border border-gray-700 text-sm hover:bg-white hover:text-black transition">
+                EN
+            </button>
+            <a href="#contact" class="hidden md:block nav-link" data-key="nav-contact">تماس</a>
+        </div>
+    </nav>
+
+    <!-- --- Hero Section --- -->
+<br>
+<br>
+<br> 
+<br>
+<br>
+<br>  
+<br>
+<br>
+<br>      
+        <!-- Social Icons (LinkedIn Replaced GitHubs) -->
+        <div class="flex justify-center gap-6 mb-12">
+            <a href="https://linkedin.com/in/YOUR_PROFILE" target="_blank" class="text-2xl hover:text-blue-500 transition-colors">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://t.me/YOUR_TELEGRAM" target="_blank" class="text-2xl hover:text-blue-400 transition-colors">
+                <i class="fab fa-telegram"></i>
+            </a>
+            <a href="mailto:info@example.com" class="text-2xl hover:text-red-400 transition-colors">
+                <i class="fas fa-envelope"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- --- Main Projects --- -->
+    <section class="py-12 px-6 max-w-6xl mx-auto">
+        <h2 class="text-2xl font-bold mb-8 border-r-4 border-blue-500 pr-4" data-key="projects-title">پروژه‌های کلیدی</h2>
+        
+        <div class="grid md:grid-cols-2 gap-8">
+            <!-- Object Detection Project (Updated with Download) -->
+            <!-- Object Detection Project (Updated with Download) -->
+            <!-- Object Detection Project (Updated with Download) -->
+            <div class="glass-card p-8">
+                <div class="w-12 h-12 bg-blue-500/10 rounded-xl flex items-center justify-center mb-6">
+                    <i class="fas fa-eye text-blue-500 text-xl"></i>
+                </div>
+                <h3 class="text-xl font-bold mb-3" data-key="obj-title">سیستم تشخیص و ردیابی اشیا</h3>
+                <p class="text-gray-400 mb-6" data-key="obj-desc">
+تشخیص اشیا متحرک با استفاده از پایتون و بینایی ماشین. 
+                </p>
+                <div class="flex gap-4">
+                    <a href="https://github.com/path-to-your-tool/releases/download/v1.0/object-detector.zip" class="btn-primary px-6 py-2 rounded-lg font-medium text-sm flex items-center gap-2">
+                        <i class="fas fa-download"></i>
+                        <span data-key="download">دانلود</span>
+                    </a>
+                </div>
+            </div>
+            <!-- Object Detection Project (Updated with Download) -->
+            <!-- Object Detection Project (Updated with Download) -->
+            <!-- Object Detection Project (Updated with Download) -->
+
+            <!-- Other Project Sample -->
+            <!--
+
+            <div class="glass-card p-8">
+                <div class="w-12 h-12 bg-purple-500/10 rounded-xl flex items-center justify-center mb-6">
+                    <i class="fas fa-chart-line text-purple-500 text-xl"></i>
+                </div>
+                <h3 class="text-xl font-bold mb-3" data-key="trading-title">اتوماسیون ترید</h3>
+                <p class="text-gray-400 mb-6" data-key="trading-desc">
+                    طراحی الگوریتم‌های هوشمند برای تحلیل بازارهای مالی و اجرای خودکار معاملات بر اساس استراتژی‌های پیچیده.
+                </p>
+            </div>
+
+            -->
+
+           
+        </div>
+    </section>
+
+    <!-- --- Footer --- -->
+    <footer class="py-12 border-t border-gray-900 text-center" id="contact">
+        <p class="text-gray-500 text-sm mb-4" data-key="copyright">© 2025 Rama Empire. تمامی حقوق محفوظ است.</p>
+        <p class="text-gray-400" data-key="email-text">ایمیل: info@example.com</p>
+    </footer>
+
+    <script>
+        const translations = {
+            fa: {
+                nav_contact: "تماس",
+                mainTitle: "علی اکبر رستگاری مهر",
+                subTitle: "توسعه‌دهنده هوش مصنوعی و آرشیتکت سیستم",
+                projects_title: "پروژه‌های کلیدی",
+                obj_title: "سیستم تشخیص و ردیابی اشیا",
+                obj_desc: "پیاده‌سازی مدل‌های پیشرفته برای شناسایی و تعقیب هوشمند اجسام در جریان‌های ویدیویی زنده",
+                download: "دانلود مستقیم",
+                trading_title: "اتوماسیون ترید",
+                trading_desc: "",
+                copyright: "© 2025 Rama Empire. تمامی حقوق محفوظ است.",
+                email_text: "ایمیل: ramatate134@gmail.com"
+            },
+            en: {
+                nav_contact: "Contact",
+                mainTitle: "AliAkbar Rastegari Mehr",
+                subTitle: "AI Developer",
+                projects_title: "Key Projects",
+                obj_title: "Object Detection & Tracking",
+                obj_desc: "Implementing advanced models for intelligent object identification and tracking in live video streams.",
+                download: "Direct Download",
+                trading_title: "Trading Automation",
+                trading_desc: "Designing intelligent algorithms for financial market analysis and automated execution.",
+                copyright: "© 2025 Rama Empire. All Rights Reserved.",
+                email_text: "Email: ramatate134@gmail.com"
+            }
+        };
+
+        let currentLang = 'fa';
+
+        function toggleLanguage() {
+            currentLang = currentLang === 'fa' ? 'en' : 'fa';
+            document.documentElement.lang = currentLang;
+            document.documentElement.dir = currentLang === 'fa' ? 'rtl' : 'ltr';
+            document.getElementById('langBtn').innerText = currentLang === 'fa' ? 'EN' : 'FA';
+            updateContent();
+        }
+
+        function updateContent() {
+            const t = translations[currentLang];
+            document.getElementById('mainTitle').innerText = t.mainTitle;
+            document.getElementById('subTitle').innerText = t.subTitle;
+            
+            // Update elements with data-key
+            document.querySelectorAll('[data-key]').forEach(el => {
+                const key = el.getAttribute('data-key').replace('-', '_');
+                if (t[key]) el.innerText = t[key];
+            });
+        }
+    </script>
+</body>
+</html>
