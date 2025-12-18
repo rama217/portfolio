@@ -1,0 +1,804 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#050507">
+    <meta name="google-site-verification" content="iE44gpBpd8bgIKMDG2n6LktGpzmO9r5ZtyMQuNOzFjI" />
+    
+    <!-- --- SEO & Open Graph (Optimized) --- -->
+    <title>علی اکبر رستگاری مهر | AliAkbar Rastegari Mehr</title>
+    <meta name="description" content="AI Solutions Architect, Systems Developer, and Trading Automation Specialist. Discover projects and innovations.">
+    <meta name="keywords" content="AliAkbar Rastegari Mehr, Ali Akbar, Rama Empire, AI Developer, Forex Trading, CEO, Robotics, Web Development, راما تولز, هوش مصنوعی, ترید">
+    <meta name="author" content="Ali Akbar Rastegari Mehr">
+    <link rel="canonical" href="https://rama-company.github.io/">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="profile">
+    <meta property="og:url" content="https://rama-company.github.io/">
+    <meta property="og:title" content="AliAkbar Rastegari Mehr | Rama Empire">
+    <meta property="og:description" content="AI Solutions Architect. Solving complex problems with code and strategy.">
+    <meta property="og:image" content="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/svgs/solid/brain.svg">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="AliAkbar Rastegari Mehr | Innovator">
+    <meta name="twitter:description" content="Professional Portfolio of AliAkbar Rastegari Mehr.">
+    
+    <!-- Structured Data (JSON-LD) for Google -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "AliAkbar Rastegari Mehr",
+      "url": "https://rama-company.github.io/",
+      "jobTitle": "AI Solutions Architect",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Rama Empire"
+      },
+      "knowsAbout": ["Artificial Intelligence", "Financial Trading", "Web Development", "Robotics", "Prompt Engineering"],
+      "sameAs": [
+        "https://www.instagram.com/ramaempire_?igsh=ZDFvOW01aXZiOHIx",
+        "https://t.me/RamaEmpire"
+      ]
+    }
+    </script>
+
+    <!-- --- Favicon (Online) --- -->
+    <link rel="icon" type="image/svg+xml" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/svgs/solid/brain.svg">
+    
+    <!-- --- Libraries & Fonts --- -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Noto+Sans+SC:wght@400;700&family=Vazirmatn:wght@100;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <style>
+        :root {
+            /* Palette - Ultra Premium Dark Mode */
+            --bg-color: #050507;
+            --card-bg: rgba(20, 20, 25, 0.6);
+            --card-border: rgba(255, 255, 255, 0.08);
+            --text-primary: #ffffff;
+            --text-secondary: #9ca3af;
+            
+            /* Neons */
+            --accent-blue: #3b82f6;
+            --accent-cyan: #06b6d4;
+            --accent-green: #10b981;
+            --accent-red: #ef4444;
+            --accent-purple: #8b5cf6;
+            --accent-gold: #f59e0b;
+            
+            --accent-gradient: linear-gradient(135deg, #3b82f6, #8b5cf6);
+            
+            --glass-blur: blur(24px);
+            --transition-speed: 0.4s;
+            --shadow-lg: 0 25px 50px -12px rgba(0, 0, 0, 0.7);
+            --shadow-glow: 0 0 20px rgba(59, 130, 246, 0.15);
+        }
+
+        /* --- Global Reset & Grain --- */
+        * { margin: 0; padding: 0; box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+        html { scroll-behavior: smooth; }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-primary);
+            line-height: 1.7;
+            overflow-x: hidden;
+            transition: font-family 0.3s ease;
+            position: relative;
+        }
+
+        /* Cinematic Grain Overlay */
+        .noise-overlay {
+            position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+            pointer-events: none; z-index: 900;
+            opacity: 0.03;
+            background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+        }
+
+        /* Fonts */
+        body.font-fa, body.font-ar { font-family: 'Vazirmatn', sans-serif; }
+        body.font-en, body.font-ru { font-family: 'Inter', sans-serif; letter-spacing: 0.3px; }
+        body.font-zh { font-family: 'Noto Sans SC', sans-serif; }
+
+        /* Animated Background Orbs */
+        .bg-orb {
+            position: fixed; border-radius: 50%; filter: blur(90px); z-index: -1; opacity: 0.25;
+            animation: orb-float 25s infinite ease-in-out alternate;
+        }
+        .orb-1 { width: 60vw; height: 60vw; top: -20%; left: -20%; background: var(--accent-blue); }
+        .orb-2 { width: 50vw; height: 50vw; bottom: -10%; right: -10%; background: var(--accent-purple); animation-delay: -5s; }
+        .orb-3 { width: 40vw; height: 40vw; top: 40%; left: 30%; background: var(--accent-cyan); animation-delay: -10s; opacity: 0.15; }
+
+        @keyframes orb-float {
+            0% { transform: translate(0, 0) scale(1); }
+            100% { transform: translate(30px, 40px) scale(1.1); }
+        }
+
+        /* --- Navbar --- */
+        .navbar {
+            position: fixed; top: 0; left: 0; right: 0; height: 80px;
+            background: rgba(5, 5, 7, 0.7);
+            backdrop-filter: var(--glass-blur); -webkit-backdrop-filter: var(--glass-blur);
+            border-bottom: 1px solid var(--card-border);
+            z-index: 1000;
+            display: flex; align-items: center; justify-content: center;
+            transition: all 0.3s ease;
+        }
+        .navbar.scrolled { background: rgba(5, 5, 7, 0.95); height: 70px; box-shadow: 0 10px 30px rgba(0,0,0,0.5); }
+
+        .nav-container { width: 100%; max-width: 1300px; padding: 0 25px; display: flex; justify-content: space-between; align-items: center; }
+
+        .nav-logo {
+            font-size: 1.5rem; font-weight: 800; text-decoration: none; display: flex; align-items: center; gap: 12px;
+            background: var(--accent-gradient); -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+        }
+        .nav-logo i { -webkit-text-fill-color: var(--accent-cyan); filter: drop-shadow(0 0 10px rgba(6,182,212,0.5)); }
+
+        .nav-controls { display: flex; gap: 15px; align-items: center; }
+        .nav-links { display: flex; gap: 8px; align-items: center; }
+
+        .nav-item {
+            text-decoration: none; color: var(--text-secondary); font-weight: 500; font-size: 0.95rem;
+            padding: 10px 20px; border-radius: 50px; transition: 0.3s; position: relative;
+        }
+        .nav-item:hover, .nav-item.active { color: var(--text-primary); background: rgba(255,255,255,0.05); }
+        .nav-item.highlight {
+            background: rgba(245, 158, 11, 0.1); color: var(--accent-gold); border: 1px solid rgba(245, 158, 11, 0.3);
+        }
+        .nav-item.highlight:hover { background: rgba(245, 158, 11, 0.2); box-shadow: 0 0 15px rgba(245,158,11,0.2); }
+
+        /* Language Switcher */
+        .lang-btn {
+            background: rgba(255,255,255,0.05); color: white; border: 1px solid var(--card-border);
+            padding: 8px 16px; border-radius: 50px; cursor: pointer; display: flex; align-items: center; gap: 8px; font-size: 0.9rem;
+            transition: 0.3s;
+        }
+        .lang-btn:hover { background: rgba(255,255,255,0.1); border-color: var(--accent-blue); }
+        
+        .lang-dropdown {
+            position: absolute; top: 120%; right: 0; background: #151518; border: 1px solid var(--card-border);
+            border-radius: 16px; padding: 8px; display: none; flex-direction: column; min-width: 140px;
+            box-shadow: var(--shadow-lg); backdrop-filter: blur(20px);
+        }
+        .lang-dropdown.show { display: flex; animation: fadeUp 0.2s ease-out; }
+        .lang-option {
+            padding: 10px 14px; color: var(--text-secondary); background: none; border: none; text-align: inherit;
+            cursor: pointer; border-radius: 10px; transition: 0.2s; display: flex; align-items: center; gap: 10px; width: 100%;
+        }
+        .lang-option:hover { background: rgba(255,255,255,0.1); color: white; transform: translateX(5px); }
+
+        .mobile-menu-btn { display: none; font-size: 1.6rem; color: white; background: none; border: none; cursor: pointer; }
+
+        /* --- Hero Section --- */
+        .hero-section {
+            min-height: 100vh; display: flex; flex-direction: column; justify-content: center; align-items: center;
+            text-align: center; padding: 140px 20px 80px; position: relative; z-index: 10;
+        }
+
+        .hero-badge {
+            background: rgba(59, 130, 246, 0.1); color: var(--accent-blue); padding: 8px 20px; border-radius: 50px;
+            font-size: 0.95rem; font-weight: 600; margin-bottom: 30px; border: 1px solid rgba(59, 130, 246, 0.3);
+            box-shadow: 0 0 20px rgba(59, 130, 246, 0.1); animation: fadeDown 1s ease-out; display: inline-flex; align-items: center; gap: 8px;
+        }
+
+        .hero-title {
+            font-size: clamp(3rem, 7vw, 5.5rem); font-weight: 900; line-height: 1.1; margin-bottom: 25px; letter-spacing: -1.5px;
+            animation: scaleIn 1s cubic-bezier(0.2, 0.8, 0.2, 1);
+        }
+        .hero-title span { background: var(--accent-gradient); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+
+        .hero-subtitle {
+            font-size: clamp(1.1rem, 2.5vw, 1.5rem); color: var(--text-secondary); max-width: 850px; margin-bottom: 45px;
+            font-weight: 300; animation: fadeUp 1s ease-out 0.3s backwards;
+        }
+
+        .btn {
+            padding: 16px 36px; border-radius: 50px; font-weight: 600; text-decoration: none; display: inline-flex; align-items: center; gap: 12px;
+            transition: 0.4s cubic-bezier(0.4, 0, 0.2, 1); font-size: 1.05rem;
+        }
+        .btn-primary {
+            background: var(--accent-blue); color: white; box-shadow: 0 10px 25px -5px rgba(59, 130, 246, 0.4);
+            border: 1px solid rgba(255,255,255,0.1);
+        }
+        .btn-primary:hover { transform: translateY(-4px) scale(1.02); box-shadow: 0 20px 40px -10px rgba(59, 130, 246, 0.6); background: #2563eb; }
+        .btn-secondary { background: rgba(255,255,255,0.05); color: white; border: 1px solid rgba(255,255,255,0.1); backdrop-filter: blur(5px); }
+        .btn-secondary:hover { background: rgba(255,255,255,0.1); transform: translateY(-4px); border-color: white; }
+
+        /* --- Sections --- */
+        .container { max-width: 1250px; margin: 0 auto; padding: 100px 25px; }
+        .section-header { text-align: center; margin-bottom: 70px; }
+        .section-header h2 { font-size: 2.8rem; margin-bottom: 15px; font-weight: 800; display: inline-block; background: linear-gradient(to right, #fff, #94a3b8); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .section-header p { color: var(--text-secondary); font-size: 1.2rem; max-width: 600px; margin: 0 auto; }
+
+        .grid-3 { display: grid; grid-template-columns: repeat(auto-fill, minmax(360px, 1fr)); gap: 35px; }
+
+        /* 3D Glass Card */
+        .glass-card {
+            background: var(--card-bg); border: 1px solid var(--card-border); border-radius: 28px; padding: 35px;
+            transition: transform 0.1s, box-shadow 0.4s; position: relative; overflow: hidden; height: 100%; display: flex; flex-direction: column;
+            transform-style: preserve-3d; /* Enable 3D */
+        }
+        .glass-card:hover { border-color: rgba(255,255,255,0.2); box-shadow: var(--shadow-lg), var(--shadow-glow); z-index: 10; }
+        
+        /* Project Visuals */
+        .project-img-placeholder {
+            height: 200px; background: linear-gradient(135deg, #111 0%, #222 100%); margin: -35px -35px 30px -35px;
+            display: flex; align-items: center; justify-content: center; font-size: 3.5rem; position: relative;
+        }
+        .project-img-placeholder::after {
+            content:''; position:absolute; inset:0; background: radial-gradient(circle at top right, rgba(255,255,255,0.08), transparent 60%);
+        }
+
+        .tag-container { display: flex; flex-wrap: wrap; gap: 10px; margin: 20px 0; }
+        .tag {
+            font-size: 0.85rem; padding: 6px 14px; border-radius: 50px; background: rgba(255,255,255,0.04);
+            color: var(--text-secondary); border: 1px solid var(--card-border); transition: 0.3s;
+        }
+        .tag:hover { color: var(--text-primary); border-color: var(--accent-blue); background: rgba(59, 130, 246, 0.1); }
+
+        .card-link {
+            margin-top: auto; color: var(--accent-blue); text-decoration: none; font-weight: 700; display: inline-flex; align-items: center; gap: 10px;
+            transition: 0.3s; padding: 10px 0; font-size: 1.05rem;
+        }
+        .card-link:hover { gap: 15px; color: var(--accent-cyan); }
+
+        /* Hub Grid */
+        .hub-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 20px; }
+        .hub-item {
+            background: rgba(255,255,255,0.02); border: 1px solid var(--card-border); padding: 25px; border-radius: 20px;
+            display: flex; align-items: center; gap: 20px; text-decoration: none; transition: 0.4s;
+        }
+        .hub-item:hover { background: rgba(255,255,255,0.07); border-color: rgba(255,255,255,0.3); transform: translateY(-5px); }
+        .hub-icon {
+            width: 55px; height: 55px; border-radius: 16px; display: flex; align-items: center; justify-content: center;
+            font-size: 1.4rem; background: rgba(255,255,255,0.05); color: var(--text-primary); box-shadow: inset 0 0 20px rgba(0,0,0,0.5);
+        }
+
+        /* --- LEGACY CARD (Old Man) --- */
+        .legacy-card {
+            background: linear-gradient(135deg, #2b1d1d, #1a0f0f);
+            border: 1px solid #5c3a3a;
+        }
+        .legacy-card:hover {
+            border-color: #ff6b6b; box-shadow: 0 0 30px rgba(255, 107, 107, 0.2);
+        }
+        .legacy-icon { color: #ff6b6b; background: rgba(255, 107, 107, 0.1); }
+
+        /* --- Footer --- */
+        footer {
+            background: #020203; padding: 80px 20px; text-align: center; border-top: 1px solid var(--card-border);
+            position: relative; z-index: 10;
+        }
+        .social-btn {
+            width: 50px; height: 50px; border-radius: 50%; background: rgba(255,255,255,0.05); display: flex; align-items: center; justify-content: center;
+            color: var(--text-secondary); text-decoration: none; transition: 0.3s; border: 1px solid var(--card-border); font-size: 1.2rem;
+        }
+        .social-btn:hover { background: var(--text-primary); color: black; transform: scale(1.1); box-shadow: 0 0 20px rgba(255,255,255,0.5); }
+
+        /* --- Animations & Utilities --- */
+        @keyframes fadeDown { from {opacity:0; transform:translateY(-40px);} to {opacity:1; transform:translateY(0);} }
+        @keyframes fadeUp { from {opacity:0; transform:translateY(40px);} to {opacity:1; transform:translateY(0);} }
+        @keyframes scaleIn { from {opacity:0; transform:scale(0.9);} to {opacity:1; transform:scale(1);} }
+
+        .reveal { opacity: 0; transform: translateY(60px); transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1); }
+        .reveal.active { opacity: 1; transform: translateY(0); }
+
+        @media (max-width: 768px) {
+            .nav-links {
+                position: fixed; top: 80px; left: 0; right: 0; background: rgba(5,5,7,0.98); backdrop-filter: blur(30px);
+                flex-direction: column; padding: 30px; border-bottom: 1px solid var(--card-border); transform: translateY(-150%); transition: 0.4s;
+            }
+            .nav-links.active { transform: translateY(0); box-shadow: 0 20px 40px rgba(0,0,0,0.5); }
+            .mobile-menu-btn { display: block; }
+            .hero-title { font-size: 2.8rem; }
+            .nav-item { width: 100%; text-align: center; padding: 15px; }
+            .btn { width: 100%; justify-content: center; }
+        }
+    </style>
+</head>
+<body class="font-fa">
+
+    <!-- Cinematic Grain -->
+    <div class="noise-overlay"></div>
+
+    <!-- Ambient Background -->
+    <div class="bg-orb orb-1"></div>
+    <div class="bg-orb orb-2"></div>
+    <div class="bg-orb orb-3"></div>
+
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">
+                <i class="fas fa-brain"></i>
+                <span data-i18n="logo">علی اکبر رستگاری مهر</span>
+            </a>
+
+            <div class="nav-controls">
+                <!-- Language Switcher -->
+                <div class="lang-select-wrapper" style="position:relative;">
+                    <button class="lang-btn" onclick="toggleLangMenu()">
+                        <i class="fas fa-globe"></i> <span id="current-lang-text">FA</span>
+                    </button>
+                    <div class="lang-dropdown" id="lang-menu">
+                        <button class="lang-option" onclick="setLanguage('fa')">🇮🇷 فارسی</button>
+                        <button class="lang-option" onclick="setLanguage('en')">🇺🇸 English</button>
+                    </div>
+                </div>
+
+                <button class="mobile-menu-btn" onclick="toggleMobileMenu()">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+
+            <div class="nav-links" id="nav-links">
+                <a href="#home" class="nav-item active" data-i18n="nav_home">خانه</a>
+                <a href="#projects" class="nav-item" data-i18n="nav_projects">پروژه‌ها</a>
+                <a href="#hub" class="nav-item" data-i18n="nav_hub">هاب لینک‌ها</a>
+                <a href="#skills" class="nav-item" data-i18n="nav_skills">مهارت‌ها</a>
+                <a href="rama-tools.html" class="nav-item highlight">
+                    <i class="fas fa-crown"></i> <span data-i18n="nav_achieve">دستاوردها</span>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="hero-badge">
+            <i class="fas fa-star"></i>
+            <span data-i18n="hero_badge">Бог знает всё.</span>
+        </div>
+        
+        <h1 class="hero-title">
+            <span data-i18n="name_first">علی اکبر</span><br>
+            <span data-i18n="name_last" style="color:white; -webkit-text-fill-color: white;">رستگاری مهر</span>
+        </h1>
+        
+        <p class="hero-subtitle" data-i18n="hero_subtitle">
+            توسعه‌دهنده پروژه های مبتنی بر هوش مصنوعی. ترکیبی از خلاقیت و دانش فنی .
+        </p>
+
+        <!-- Age Section REMOVED as requested -->
+
+        <div style="display:flex; gap:20px; flex-wrap:wrap; justify-content:center;">
+            <a href="#projects" class="btn btn-primary">
+                <i class="fas fa-rocket"></i> <span data-i18n="btn_projects">مشاهده پروژه‌ها</span>
+            </a>
+            <a href="mailto:ramatate134@gmail.com" class="btn btn-secondary">
+                <i class="fas fa-envelope"></i> <span data-i18n="btn_contact">تماس با من</span>
+            </a>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="container">
+        <div class="section-header reveal">
+            <!-- Modified title and removed description content -->
+            <h2 data-i18n="projects_title">پروژه‌ها</h2>
+            <p data-i18n="projects_desc"></p>
+        </div>
+
+        <div class="grid-3">
+            <!-- Rama AI -->
+            <div class="glass-card reveal" onmousemove="tilt(event, this)" onmouseleave="resetTilt(this)">
+                <div class="project-img-placeholder">
+                    <i class="fas fa-brain" style="color:var(--accent-purple)"></i>
+                </div>
+                <h3 data-i18n="p1_title">Rama AI</h3>
+                <p style="color:var(--text-secondary); margin-bottom:15px;" data-i18n="p1_desc">
+                 کامل ترین ابزار هوش مصنوعی با بیش از ۱۸۰۰۰ پرامپت آماده و ۵ ابزار برای پرامپ نویسی.
+                </p>
+                <div class="tag-container">
+                    <span class="tag">AI Tools</span>
+                    <span class="tag">Web App</span>
+                    <span class="tag">System Design</span>
+                </div>
+                <a href="https://rama-company.github.io/Rama-AI/" class="card-link">
+                    <span data-i18n="link_view">مشاهده</span> <i class="fas fa-arrow-left arrow-icon"></i>
+                </a>
+            </div>
+
+            <!-- Rama Game 3D -->
+            <div class="glass-card reveal" style="transition-delay: 0.1s" onmousemove="tilt(event, this)" onmouseleave="resetTilt(this)">
+                <div class="project-img-placeholder">
+                    <i class="fas fa-gamepad" style="color:var(--accent-red)"></i>
+                </div>
+                <h3 data-i18n="p2_title">Rama Game 3D</h3>
+                <p style="color:var(--text-secondary); margin-bottom:15px;" data-i18n="p2_desc">
+                    بازی کامپیوتری سه بعدی ساخته شده با Unity و اتوماسیون هوش مصنوعی.
+                </p>
+                <div class="tag-container">
+                    <span class="tag">Unity 3D</span>
+                    <span class="tag">C#</span>
+                    <span class="tag">vibe coding</span>
+                </div>
+                <a href="https://t.me/RamaEmpire/32" class="card-link">
+                    <span data-i18n="link_download">دانلود</span> <i class="fas fa-arrow-left arrow-icon"></i>
+                </a>
+            </div>
+
+            <!-- Rama Book -->
+            <div class="glass-card reveal" style="transition-delay: 0.2s" onmousemove="tilt(event, this)" onmouseleave="resetTilt(this)">
+                <div class="project-img-placeholder">
+                    <i class="fas fa-book-open" style="color:var(--accent-green)"></i>
+                </div>
+                <h3 data-i18n="p3_title">Rama Book</h3>
+                <p style="color:var(--text-secondary); margin-bottom:15px;" data-i18n="p3_desc">
+                    پلتفرم فروش کتاب الکترونیکی با سیستم پرداخت کریپتو.
+                </p>
+                <div class="tag-container">
+                    <span class="tag">E-Commerce</span>
+                    <span class="tag">Crypto Payment</span>
+                </div>
+                <a href="https://ramaco.carrd.co" class="card-link">
+                    <span data-i18n="link_store">فروشگاه</span> <i class="fas fa-arrow-left arrow-icon"></i>
+                </a>
+            </div>
+
+            <!-- Mini Chatbot -->
+            <div class="glass-card reveal" onmousemove="tilt(event, this)" onmouseleave="resetTilt(this)">
+                <div class="project-img-placeholder">
+                    <i class="fas fa-comments" style="color:var(--accent-blue)"></i>
+                </div>
+                <h3 data-i18n="p4_title">Mini Chatbot</h3>
+                <p style="color:var(--text-secondary); margin-bottom:15px;" data-i18n="p4_desc">
+                    چت‌بات هوشمند با قابلیت NLP و پاسخگویی طبیعی.
+                </p>
+                <div class="tag-container">
+                    <span class="tag">vibe coding</span>
+                    <span class="tag">Python</span>
+                    <span class="tag">AI</span>
+                </div>
+                <a href="ai.rar" class="card-link">
+                    <span data-i18n="link_download">دانلود</span> <i class="fas fa-arrow-left arrow-icon"></i>
+                </a>
+            </div>
+
+              <!-- Rama Game 2D -->
+            <div class="glass-card reveal" onmousemove="tilt(event, this)" onmouseleave="resetTilt(this)">
+                <div class="project-img-placeholder">
+                    <i class="fas fa-ghost" style="color:var(--accent-gold)"></i>
+                </div>
+                <h3 data-i18n="p5_title">Rama Game 2D</h3>
+                <p style="color:var(--text-secondary); margin-bottom:15px;" data-i18n="p5_desc">
+                    بازی ۲ بعدی با سیستم ذخیره سازی پیچیده و جهان‌های مختلف.
+                </p>
+                <div class="tag-container">
+                    <span class="tag">JavaScript</span>
+                    <span class="tag">HTML5</span>
+                    <span class="tag">vibe coding</span>
+                </div>
+                <a href="indexxx.html" class="card-link">
+                    <span data-i18n="link_play">بازی کنید</span> <i class="fas fa-arrow-left arrow-icon"></i>
+                </a>
+            </div>
+
+              <!-- More Projects (was Mini Resume) -->
+            <div class="glass-card reveal" onmousemove="tilt(event, this)" onmouseleave="resetTilt(this)">
+                <div class="project-img-placeholder">
+                    <i class="fas fa-layer-group" style="color:white"></i>
+                </div>
+                <h3 data-i18n="p6_title">پروژه‌های بیشتر</h3>
+                <p style="color:var(--text-secondary); margin-bottom:15px;" data-i18n="p6_desc">
+                    نسخه خلاصه شده برای دسترسی سریع.
+                </p>
+                <div class="tag-container">
+                    
+                    <span class="tag">Summary</span>
+                </div>
+                <a href="rama-tools.html" class="card-link">
+                    <span data-i18n="link_view">مشاهده</span> <i class="fas fa-arrow-left arrow-icon"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hub Section (Filtered List) -->
+    <section id="hub" class="container">
+        <div class="section-header reveal">
+            <h2 data-i18n="hub_title">هاب لینک‌ها</h2>
+            <p data-i18n="hub_desc">دسترسی مستقیم به تمام ابزارها و منابع راما</p>
+        </div>
+
+        <div class="hub-grid">
+            <!-- LEGACY ITEM (Updated Text) -->
+            <a href="https://gtr200107-commits.github.io/theoldman/" class="hub-item reveal legacy-card">
+                <div class="hub-icon legacy-icon"><i class="fas fa-users"></i></div>
+                <div>
+                    <h4 style="color:#ff6b6b;" data-i18n="h_legacy">تالار گفتگو</h4>
+                    <small style="color:rgba(255, 255, 255, 0.6);" data-i18n="h_legacy_d">تالار گفتگو با وایب قدیمی</small>
+                </div>
+            </a>
+            
+            <!-- REMOVED: Rama Empire, DIY Projects, Trading Analysis, Champions Night -->
+
+            <a href="https://rama-company.github.io/kieseki/" class="hub-item reveal">
+                <div class="hub-icon" style="color:var(--accent-purple)"><i class="fas fa-dumbbell"></i></div>
+                <div><h4 data-i18n="h_kieseki">KIESEKI</h4><small style="color:var(--text-secondary)" data-i18n="h_kieseki_d">پکیج رشد نوجوانان</small></div>
+            </a>
+
+            <a href="https://rama-company.github.io/JEBAL-GYM/" class="hub-item reveal">
+                <div class="hub-icon" style="color:var(--accent-red)"><i class="fas fa-fist-raised"></i></div>
+                <div><h4 data-i18n="h_gym">JEBAL GYM</h4><small style="color:var(--text-secondary)" data-i18n="h_gym_d">وبسایت بوکس</small></div>
+            </a>
+
+            <a href="https://rama-company.github.io/web-gen-p/" class="hub-item reveal">
+                <div class="hub-icon" style="color:var(--accent-blue)"><i class="fas fa-pager"></i></div>
+                <div><h4 data-i18n="h_lp_fa">Landing Page (FA)</h4><small style="color:var(--text-secondary)" data-i18n="h_lp_fa_d">سازنده لندینگ فارسی</small></div>
+            </a>
+             
+            <a href="https://rama-company.github.io/web-gen-e/" class="hub-item reveal">
+                <div class="hub-icon" style="color:var(--accent-blue)"><i class="fas fa-globe"></i></div>
+                <div><h4 data-i18n="h_lp_en">Landing Page (EN)</h4><small style="color:var(--text-secondary)" data-i18n="h_lp_en_d">English Landing Page Builder</small></div>
+            </a>
+        </div>
+    </section>
+
+    <!-- Skills Section (Updated) -->
+    <section id="skills" class="container">
+        <div class="section-header reveal">
+            <!-- Title changed from مهارت های تخصصی to مهارت ها -->
+            <h2 data-i18n="skills_title">مهارت‌ها</h2>
+            <p data-i18n="skills_desc">زمینه‌های کلیدی که در آن تجربه دارم.</p>
+        </div>
+
+        <div class="grid-3" style="grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));">
+            <!-- Skill 1: Vibe Coding (Updated) -->
+            <div class="glass-card reveal" onmousemove="tilt(event, this)" onmouseleave="resetTilt(this)" style="padding: 25px; align-items: flex-start; gap: 15px;">
+                <i class="fas fa-laptop-code" style="font-size: 2rem; color: var(--accent-purple);"></i>
+                <h4 data-i18n="s1_title">Vibe Coding</h4>
+                <p style="color: var(--text-secondary); font-size: 0.95rem;" data-i18n="s1_desc">علاقه مند به انجام وایب کدینگ و ساخت پروژه های متنوع و جالب با مدل های هوش مصنوعی</p>
+            </div>
+
+            <!-- REMOVED: Trading Systems, Backend Development -->
+
+            <!-- Skill 2: Full-Stack with AI (Updated) -->
+            <div class="glass-card reveal" onmousemove="tilt(event, this)" onmouseleave="resetTilt(this)" style="padding: 25px; align-items: flex-start; gap: 15px; transition-delay: 0.3s;">
+                <i class="fas fa-code" style="font-size: 2rem; color: var(--accent-gold);"></i>
+                <h4 data-i18n="s4_title">توسعه فول‌استک به کمک هوش مصنوعی</h4>
+                <p style="color: var(--text-secondary); font-size: 0.95rem;" data-i18n="s4_desc">توسعه انواع مینی پلتفرم با استفاده از هوش مصنوعی و مهارت وایب کدینگ با مدل ها</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div style="max-width: 600px; margin: 0 auto; margin-bottom: 40px;">
+            <p style="font-size: 1.5rem; font-weight: 700; margin-bottom: 15px;" data-i18n="footer_title">
+                برای همکاری یا پروژه‌ها من تماس بگیرید.
+            </p>
+            <a href="mailto:ramatate134@gmail.com" class="btn btn-primary" style="padding: 12px 30px;">
+                <i class="fas fa-envelope"></i> <span data-i18n="btn_email">ارسال ایمیل</span>
+            </a>
+        </div>
+        
+        <div style="display: flex; justify-content: center; gap: 15px; margin-bottom: 40px;">
+            <a href="https://t.me/RamaEmpire" class="social-btn" target="_blank" aria-label="Telegram">
+                <i class="fab fa-telegram-plane"></i>
+            </a>
+            <a href="https://www.instagram.com/ramaempire_?igsh=ZDFvOW01aXZiOHIx" class="social-btn" target="_blank" aria-label="Instagram">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="mailto:ramatate134@gmail.com" class="social-btn" aria-label="Email">
+                <i class="fas fa-envelope"></i>
+            </a>
+        </div>
+
+        <div style="color: var(--text-secondary); font-size: 0.9rem;">
+            <p>&copy; 2025 AliAkbar Rastegari Mehr. <span data-i18n="copyright"></span></p>
+            <!-- REMOVED: Built with love... -->
+        </div>
+    </footer>
+
+
+    <script>
+        // --- DATA DICTIONARY (i18n) ---
+        const translations = {
+            fa: {
+                dir: 'rtl',
+                font: 'font-fa',
+                logo: 'علی اکبر رستگاری مهر',
+                nav_home: 'خانه',
+                nav_projects: 'پروژه‌ها',
+                nav_hub: 'هاب لینک‌ها',
+                nav_skills: 'مهارت‌ها',
+                nav_achieve: 'دستاوردها',
+                hero_badge: 'Бог знает всё.',
+                name_first: 'علی اکبر',
+                name_last: 'رستگاری مهر',
+                hero_subtitle: 'توسعه‌دهنده پروژه های مبتنی بر هوش مصنوعی. ترکیبی از خلاقیت و دانش فنی .',
+                btn_projects: 'مشاهده پروژه‌ها',
+                btn_contact: 'تماس با من',
+                projects_title: 'پروژه‌ها',
+                projects_desc: '',
+                p1_title: 'Rama AI',
+                p1_desc: 'کامل ترین ابزار هوش مصنوعی با بیش از ۱۸۰۰۰ پرامپت آماده و ۵ ابزار برای پرامپ نویسی.',
+                p2_title: 'Rama Game 3D',
+                p2_desc: 'بازی کامپیوتری سه بعدی ساخته شده با Unity و اتوماسیون هوش مصنوعی.',
+                p3_title: 'Rama Book',
+                p3_desc: 'پلتفرم فروش کتاب الکترونیکی با سیستم پرداخت کریپتو.',
+                p4_title: 'Mini Chatbot',
+                p4_desc: 'چت‌بات هوشمند با قابلیت NLP و پاسخگویی طبیعی.',
+                p5_title: 'Rama Game 2D',
+                p5_desc: 'بازی ۲ بعدی با سیستم ذخیره سازی پیچیده و جهان‌های مختلف.',
+                p6_title: 'پروژه‌های بیشتر',
+                p6_desc: 'نسخه خلاصه شده برای دسترسی سریع.',
+                link_view: 'مشاهده',
+                link_download: 'دانلود',
+                link_store: 'فروشگاه',
+                link_play: 'بازی کنید',
+                hub_title: 'هاب لینک‌ها',
+                hub_desc: 'دسترسی مستقیم به تمام ابزارها و منابع راما',
+                h_legacy: 'تالار گفتگو',
+                h_legacy_d: 'تالار گفتگو با وایب قدیمی',
+                h_kieseki: 'KIESEKI',
+                h_kieseki_d: 'پکیج رشد نوجوانان',
+                h_gym: 'JEBAL GYM',
+                h_gym_d: 'وبسایت بوکس',
+                h_lp_fa: 'Landing Page (FA)',
+                h_lp_fa_d: 'سازنده لندینگ فارسی',
+                h_lp_en: 'Landing Page (EN)',
+                h_lp_en_d: 'English Landing Page Builder',
+                skills_title: 'مهارت‌ها',
+                skills_desc: 'زمینه‌های کلیدی که در آن تجربه دارم.',
+                s1_title: 'Vibe Coding',
+                s1_desc: 'علاقه مند به انجام وایب کدینگ و ساخت پروژه های متنوع و جالب با مدل های هوش مصنوعی',
+                s4_title: 'توسعه فول‌استک به کمک هوش مصنوعی',
+                s4_desc: 'توسعه انواع مینی پلتفرم با استفاده از هوش مصنوعی و مهارت وایب کدینگ با مدل ها',
+                footer_title: 'برای همکاری یا پروژه‌ها من تماس بگیرید.',
+                btn_email: 'ارسال ایمیل',
+                copyright: 'تمامی حقوق محفوظ است.'
+            },
+            en: {
+                dir: 'ltr',
+                font: 'font-en',
+                logo: 'AliAkbar Rastegari Mehr',
+                nav_home: 'Home',
+                nav_projects: 'Projects',
+                nav_hub: 'Link Hub',
+                nav_skills: 'Skills',
+                nav_achieve: 'Achievements',
+                hero_badge: 'Бог знает всё.',
+                name_first: 'AliAkbar',
+                name_last: 'Rastegari Mehr',
+                hero_subtitle: 'Developer of AI-based projects. A combination of creativity and technical knowledge.',
+                btn_projects: 'View Projects',
+                btn_contact: 'Contact Me',
+                projects_title: 'Projects',
+                projects_desc: '',
+                p1_title: 'Rama AI',
+                p1_desc: 'The most complete AI tool with over 18,000 ready prompts and 5 tools for prompt engineering.',
+                p2_title: 'Rama Game 3D',
+                p2_desc: '3D computer game made with Unity and AI automation.',
+                p3_title: 'Rama Book',
+                p3_desc: 'E-book sales platform with crypto payment system.',
+                p4_title: 'Mini Chatbot',
+                p4_desc: 'Smart chatbot with NLP capabilities and natural response.',
+                p5_title: 'Rama Game 2D',
+                p5_desc: '2D game with complex save system and different worlds.',
+                p6_title: 'More Projects',
+                p6_desc: 'Condensed version for quick access.',
+                link_view: 'View',
+                link_download: 'Download',
+                link_store: 'Store',
+                link_play: 'Play',
+                hub_title: 'Link Hub',
+                hub_desc: 'Direct access to all Rama tools and resources',
+                h_legacy: 'Forum',
+                h_legacy_d: 'Forum with old vibe',
+                h_kieseki: 'KIESEKI',
+                h_kieseki_d: 'Teen Growth Package',
+                h_gym: 'JEBAL GYM',
+                h_gym_d: 'Boxing Website',
+                h_lp_fa: 'Landing Page (FA)',
+                h_lp_fa_d: 'Persian Landing Page Builder',
+                h_lp_en: 'Landing Page (EN)',
+                h_lp_en_d: 'English Landing Page Builder',
+                skills_title: 'Skills',
+                skills_desc: 'Key areas where I have experience.',
+                s1_title: 'Vibe Coding',
+                s1_desc: 'Interested in vibe coding and building diverse and interesting projects with AI models.',
+                s4_title: 'Full-Stack Development with AI',
+                s4_desc: 'Developing various mini-platforms using AI and vibe coding skills with models.',
+                footer_title: 'Contact me for collaboration or projects.',
+                btn_email: 'Send Email',
+                copyright: 'All rights reserved.'
+            },
+        };
+
+        let currentLang = 'fa';
+
+        function updateContent(lang) {
+            document.documentElement.dir = translations[lang].dir;
+            document.body.className = translations[lang].font;
+            document.getElementById('current-lang-text').textContent = lang.toUpperCase();
+            document.getElementById('lang-menu').classList.remove('show');
+
+            document.querySelectorAll('[data-i18n]').forEach(element => {
+                const key = element.getAttribute('data-i18n');
+                if (translations[lang] && translations[lang][key] !== undefined) {
+                    element.textContent = translations[lang][key];
+                }
+            });
+            currentLang = lang;
+        }
+
+        function setLanguage(lang) {
+            updateContent(lang);
+            localStorage.setItem('portfolioLang', lang);
+        }
+
+        function toggleLangMenu() {
+            document.getElementById('lang-menu').classList.toggle('show');
+        }
+
+        function toggleMobileMenu() {
+            document.getElementById('nav-links').classList.toggle('active');
+            const btn = document.querySelector('.mobile-menu-btn i');
+            if (document.getElementById('nav-links').classList.contains('active')) {
+                btn.className = 'fas fa-times';
+            } else {
+                btn.className = 'fas fa-bars';
+            }
+        }
+
+        // --- Scrolling Effects ---
+        function handleScroll() {
+            const navbar = document.getElementById('navbar');
+            navbar.classList.toggle('scrolled', window.scrollY > 50);
+            
+            // Intersection Observer for reveal effect
+            const reveals = document.querySelectorAll('.reveal');
+            for (let i = 0; i < reveals.length; i++) {
+                const windowHeight = window.innerHeight;
+                const revealTop = reveals[i].getBoundingClientRect().top;
+                const revealPoint = 150;
+
+                if (revealTop < windowHeight - revealPoint) {
+                    reveals[i].classList.add('active');
+                }
+            }
+        }
+
+        // --- 3D Tilt Effect ---
+        function tilt(event, element) {
+            const rect = element.getBoundingClientRect();
+            const x = (event.clientX - rect.left) / rect.width; // 0 to 1
+            const y = (event.clientY - rect.top) / rect.height; // 0 to 1
+
+            const sensitivity = 10; // Max degree of tilt
+            const rx = (y - 0.5) * sensitivity * -1; // Rotate X (vertical movement affects horizontal rotation)
+            const ry = (x - 0.5) * sensitivity;    // Rotate Y (horizontal movement affects vertical rotation)
+            
+            element.style.transform = `perspective(1000px) rotateX(${rx}deg) rotateY(${ry}deg) scale(1.01)`;
+            element.style.boxShadow = `
+                ${-ry / 2}px ${-rx / 2}px 30px rgba(0, 0, 0, 0.5),
+                0 0 20px rgba(59, 130, 246, 0.15)`;
+        }
+
+        function resetTilt(element) {
+            element.style.transform = 'perspective(1000px) rotateX(0) rotateY(0) scale(1)';
+            element.style.boxShadow = 'var(--shadow-lg)';
+        }
+
+
+        // --- Initial Load ---
+        document.addEventListener('DOMContentLoaded', () => {
+            // Load preferred language from localStorage or default to 'fa'
+            const savedLang = localStorage.getItem('portfolioLang') || 'fa';
+            setLanguage(savedLang);
+
+            // Set up scroll listener
+            window.addEventListener('scroll', handleScroll);
+            handleScroll(); // Initial check for elements already in viewport
+        });
+        
+    </script>
+</body>
+</html>
